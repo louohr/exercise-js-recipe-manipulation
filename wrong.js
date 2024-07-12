@@ -8,7 +8,7 @@ logoText.style.color = "black";
 document.querySelector("header").style.justifyContent = "flex-start";
 
 // 3
-header.style.borderBottomColor = "lightgray";
+document.querySelector("header").style.borderBottomColor = "lightgray";
 
 // 4
 let recipeName = document.getElementById("recipe-name");
