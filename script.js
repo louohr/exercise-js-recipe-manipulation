@@ -31,7 +31,7 @@ let imageInfo = {
 console.log("Information of the image:", imageInfo);
 
 // 6 ingredients
-let pasteIngredients = document.querySelector(".ingredients-container");
+let pasteIngredients = document.querySelector(".ingredients-list-paste");
 // count the number of list items (ingredients) within the paste ingredients list
 let numberOfPasteIngredients = pasteIngredients.getElementsByTagName("li").length;
 console.log("Number of ingredients for the paste:", numberOfPasteIngredients);
